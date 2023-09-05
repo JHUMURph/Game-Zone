@@ -4,6 +4,7 @@
 *{
   font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
+
 }
 /* nav section css */
 .container{
@@ -23,7 +24,7 @@ font-family: 'Work Sans', sans-serif;
 
 .nav-img{
   display: flex;
-  width: 50%;
+
   align-items: center;
 
 }
@@ -39,7 +40,6 @@ font-family: 'Work Sans', sans-serif;
 .nav-details{
   display: flex;
   justify-content: space-between;
-  width: 50%;
   align-items: center;
 }
 .nav-details a{
@@ -52,6 +52,8 @@ font-family: 'Work Sans', sans-serif;
   background: rgba(11, 2, 35, 0.10); 
   padding: 18px 24px;
   border-radius: 5px;
+  width: 50%;
+
 }
 .youtube{
   color:  #F61C0D;

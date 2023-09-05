@@ -1,0 +1,23 @@
+@media screen and ( max-width : 480px){
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-img {
+    align-items: center;
+  }
+  
+  
+  .nav-details  {
+  
+    flex-direction: column
+  }
+  .nav-details a {
+    margin-top: 20px;
+  }
+  .follow{
+    margin-top: 20px;
+
+  }
+  
+}
