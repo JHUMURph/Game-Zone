@@ -4,15 +4,20 @@
 *{
   font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
+box-sizing: border-box;
 
 }
 /* nav section css */
+.header{
+  background-color: #fff;
+
+}
 .container{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #fff;
-  padding: 40px 200px;
+  max-width: 1100px;
+  margin: 0 auto;
   
 }
 .img-title{
@@ -24,7 +29,6 @@ font-family: 'Work Sans', sans-serif;
 
 .nav-img{
   display: flex;
-
   align-items: center;
 
 }
@@ -33,6 +37,8 @@ font-family: 'Work Sans', sans-serif;
   margin-right: 20px;
   height: 40px;
   weight:86px;
+  
+  ;
 }
 .nav-color{
  color: #FF42A5
@@ -41,6 +47,8 @@ font-family: 'Work Sans', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 50%;
+  
 }
 .nav-details a{
   text-decoration: none;
@@ -50,9 +58,9 @@ font-family: 'Work Sans', sans-serif;
 }
 .follow{
   background: rgba(11, 2, 35, 0.10); 
-  padding: 18px 24px;
+  padding: 17px 20px;
   border-radius: 5px;
-  width: 50%;
+
 
 }
 .youtube{

@@ -10,13 +10,16 @@
   
   .nav-details  {
   
-    flex-direction: column
+    flex-direction: column;
+    width: 100%;
   }
   .nav-details a {
     margin-top: 20px;
+    
   }
   .follow{
     margin-top: 20px;
+
 
   }
   
