@@ -9,7 +9,7 @@ box-sizing: border-box;
 }
 /* nav section css */
 .header{
-  background-color: red;
+  background-color: #fff
   
 
 }
@@ -83,7 +83,7 @@ box-sizing: border-box;
   align-items: center;
   justify-content: center;
   margin: 50px auto 0;
-  max-width: 1400px;
+  max-width:1400px;
   gap: 60px;
   width: 100%;
   background-color: #fff;
@@ -145,4 +145,41 @@ margin-bottom: 16px;
   height: 75vh;
 
 
+}
+/* main section css */
+
+.main-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0;
+
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+
+}
+
+
+.section-header{
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+color: transparent;
+-webkit-background-clip: text;
+}
+.section-title{
+  color: #534C64; 
+  font-size: 1.1rem;
+}
+.right-section{
+  text-align: right;
+}
+.our{
+  color: #534C64; 
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.game{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #534C64; 
 }
