@@ -52,5 +52,28 @@
     width: 100%;
     text-align: center;
   }
-  
+  .online-img{
+    flex-direction: column;
+  }
+  /* start download css */
+.download-title{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+.download-img{
+  height: 100%;
+  width:100%
+} 
+.download-details{
+  width: 100%;
+  text-align: center;
+  margin-right: 0;
+}
+.angela{
+  position: relative;
+  bottom: 100px;
+}
+
 }
