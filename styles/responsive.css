@@ -56,6 +56,10 @@
     flex-direction: column;
   }
   /* start download css */
+  .download-section
+  {
+    margin-bottom: 20px;
+  }
 .download-title{
   flex-direction: column;
   align-items: center;
@@ -74,6 +78,45 @@
 .angela{
   position: relative;
   bottom: 100px;
+}
+/* last section */
+.all-img{
+  margin-bottom: 20px;
+}
+.last-section{
+  grid-template-columns: repeat(3,1fr);
+  margin: 0 auto;
+  align-items: center;
+  padding:0;
+
+}
+.last-line{
+  margin: 0;
+  padding: 10px;
+}
+.last-line img{
+  height:40px ;
+  width: 40px;
+}
+.paragraph{
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* footer */
+.icon{
+  display: grid;
+  grid-template-columns: repeat(3,50px);
+}
+.footer-story{
+  display: grid;
+  grid-template-columns: repeat(3,100px);
+}
+.team{
+  display: grid;
+  grid-template-columns: repeat(2,100px);
 }
 
 }
